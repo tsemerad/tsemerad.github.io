@@ -60,14 +60,7 @@ body {
 ol, ul {
     list-style: none;
 }
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
+
 
 table {
     border-collapse: collapse;
@@ -175,9 +168,16 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 'PT Serif', georgia, serif;
-    font-size: 48px;
+    /*font-family: 'PT Serif', georgia, serif;*/
+    font-size: 32px;
     line-height: 1.5;
+}
+.step h1 {
+    font-size: 56px;
+}
+
+.step h1.huge {
+    font-size: 78px;
 }
 
 /*

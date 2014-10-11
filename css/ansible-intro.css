@@ -1,0 +1,33 @@
+
+ul {
+	list-style: circle;
+}
+
+.step h1 {
+	font-size: 78px;
+}
+.step h2 {
+	font-size: 56px;
+}
+
+blockquote {
+	font-size: 24px;
+}
+
+.present .scale-up {
+    -webkit-transform: scale(1.3);
+    -moz-transform:    scale(1.3);
+    -ms-transform:     scale(1.3);
+    -o-transform:      scale(1.3);
+    transform:         scale(1.3);
+
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay:    0.3s;
+    -ms-transition-delay:     0.3s;
+    -o-transition-delay:      0.3s;
+    transition-delay:         0.3s;
+}
+
+pre {
+	font-size: 18px;
+}
