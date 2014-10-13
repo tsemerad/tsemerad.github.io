@@ -145,7 +145,7 @@
     <h1>Me</h1>
     <ul>
         <li>Limited knowledge of command line</li>
-        <li>Never set up a server before</li>
+        <li>Had never set up a server before</li>
         <li>Bash scripts?</li>
     </ul>
     </div>
@@ -155,11 +155,6 @@
     <pre>
 cat /usr/share/dict/words | fgrep -v "'" | perl -ne 'chomp($_); @b=split(//,$_); print join("", sort(@b))." ".$_."\n";' | tee lookup.txt | perl -pe 's/^([^ ]+) .*/\1/g' | awk '{ print length, $0 }' | sort -n | awk '{$1=""; print $0}' | uniq -c | sort -nr | egrep "^[^0-9]+2 " | awk '{ print length, $0 }' | sort -n | awk '{$1=""; print $0}' | perl -pe 's/[ 0-9]//g' | xargs -i grep {} lookup.txt | perl -pe 's/[^ ]+ //g' | tail -n2
     </pre> -->
-
-    <div id="goal-python-app" class="step" data-x="0" data-y="1000">
-    <h1>Goal:</h1>
-    <h2>develop a Python web mapping application</h2>
-    </div>
 
     <div id="sleep" class="step" data-x="1000" data-y="1000">
     <h1>It’s fine</h1>
